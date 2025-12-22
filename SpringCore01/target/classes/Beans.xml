@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+    <bean id="petrol" class="in.Engine.Beans.PetrolEngine"/>
+    <bean id="diesel" class="in.Engine.Beans.DieselEngine"/>
+    <bean id="ev" class="in.Engine.Beans.EvEngine"/>
+
+    <bean id="engine" class="in.Engine.Beans.EngineService">
+
+
+
+</beans>
